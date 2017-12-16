@@ -32,7 +32,7 @@ p {
 /*Make all inputs have a 3px red border*/
 
 input {
-    border: 3px red solid;
+    border: 3px solid red;
 }
 
 /* Give everything with the class 'hello' a white background*/
@@ -43,7 +43,7 @@ input {
 /* Give the element with id 'special' a 2px solid blue border(pick your own rgb blue)*/
 
 #special {
-    border: 2px rgb(31, 3, 116) solid;
+    border: 2px solid rgb(31, 3, 116);
 }
 /*Make all the <p>'s that are nested inside of divs 25px font(font-size: 25px)*/
 
@@ -63,7 +63,7 @@ div:nth-of-type(3) p {
 /* Give the 2nd <p> inside the 3rd <div> a 5px white border*/
 
 div:nth-of-type(3) p:nth-of-type(2) {
-    border: 5px white solid;
+    border: 5px solid white;
 }
 /* Make the <em> in the 3rd <div> element white and 20px font(font-size:20px)*/
 
@@ -77,7 +77,7 @@ div:nth-of-type(3) em {
 
 /*Make all "checked" checkboxes have a left margin of 50px(margin-left: 50px)*/
 
-li [type=checkbox]:checked {
+input[type=checkbox]:checked {
     margin-left: 50px;
 }
 
@@ -88,7 +88,7 @@ label {
 }
 /*Make the first letter of the element with id 'special' green and 100px font size(font-size: 100)*/
 
-#special::first-letter {
+#special:first-letter {
     color: green;
     font-size: 100px;
 }
