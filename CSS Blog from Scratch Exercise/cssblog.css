@@ -1,7 +1,7 @@
 body {
     font-family: 'Source Sans Pro', sans-serif;
-    font-size: 17px;
-    width: 60%;
+    width: 80%;
+    max-width: 750px;
     margin: 1.5% auto;
     border: 22px solid #c8cbce;
 }
@@ -10,17 +10,16 @@ body {
     margin: 3%;
 }
 
-h1 {
-    font-size: 2em;
+h2 {
+    font-size: 2.0rem;
     color: #0e3a57d8;
 }
 
-h2 {
+.date {
     text-transform: uppercase;
-    font-size: 1em;
     font-weight: 600;
     color: #3faad4ce;
-    letter-spacing: 4px;
+    letter-spacing: 0.2rem;
     margin: 0px;
 }
 
@@ -31,7 +30,7 @@ hr {
     margin: 3% 0;  
 }
 
-h1 + p {
+.quote {
     border-left: 7px solid #c8cbce;
     padding-left: 7px;
 }
