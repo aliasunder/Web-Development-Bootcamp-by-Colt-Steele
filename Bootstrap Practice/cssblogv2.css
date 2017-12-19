@@ -1,0 +1,50 @@
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 1.5% auto;
+    border: 20px solid #c8cbce;
+}
+
+.content {
+    margin: 3%;
+}
+
+h2 {
+    font-size: 2.0rem;
+    color: #0e3a57d8;
+    font-weight: bold;
+}
+
+.date {
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #3faad4ce;
+    letter-spacing: 0.2rem;
+    margin: 0px;
+}
+
+hr {
+    height: 2.5px;
+    background-color: #dbe7e27c;
+    border: 0;
+    margin: 3% 0;  
+}
+
+.quote {
+    border-left: 7px solid #c8cbce;
+    padding-left: 7px;
+}
+
+.btn-default {
+    color: #fff;
+    background-color: #337ab7;
+    border-color: #2e6da4;
+    margin: 2rem auto;
+    display: block
+}
+
+img {
+    float: left; 
+    width: 30%;
+    margin: 1.66%;
+}
+
