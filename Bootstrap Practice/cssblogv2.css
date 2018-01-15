@@ -1,11 +1,7 @@
 body {
     font-family: 'Source Sans Pro', sans-serif;
-    margin: 1.5% auto;
     border: 20px solid #c8cbce;
-}
-
-.content {
-    margin: 3%;
+    margin: 1.5% auto;
 }
 
 h2 {
@@ -43,7 +39,5 @@ hr {
 }
 
 img {
-    float: left; 
-    width: 30%;
-    margin: 1.66%;
+    padding: 1.5%;
 }
